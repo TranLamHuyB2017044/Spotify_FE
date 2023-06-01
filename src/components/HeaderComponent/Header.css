@@ -1,0 +1,74 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #242526;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+.left-nav{
+    margin: auto 30px;
+    text-decoration: none;
+}
+.Logo{
+    width: 50px;
+    height: 50px;
+}
+
+.name-logo{
+    color: rgb(30,215,96);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.search-header{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+   font-size: 20px;
+}
+.search-input{
+    width: 350px;
+    height: 47px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.upgrade-btn {
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 3px 15px;
+    font-weight: bold;
+    
+}
+.install-btn{
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.install-btn:hover{
+    scale: 1.1;
+}
+.upgrade-btn:hover{
+    scale: 1.1;
+}
+.user-icon{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+}
