@@ -1,0 +1,102 @@
+.playlist{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    gap: 1rem;
+    
+    .image{
+        height: 15rem;
+        img{
+            height: 100%;
+        }
+    }
+    .details{
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        gap: 1rem;
+        .title{
+            font-weight: bolder;
+            font-size: 4rem;
+
+        }
+        .description{
+            color: #abb1b9;
+            font-size: 14px;
+            margin-top: 15px;
+            opacity: 0.8;
+        }
+    }
+}
+.list{
+    .header_row{
+        display: flex;
+        flex-direction: column;
+        .nav_row{
+            gap: 2rem;
+            display: flex;
+            padding: 2rem 0rem 0rem 2rem;
+            .circle{
+                font-size: 4rem;
+                border-radius: 50%;
+                color: #1ed760;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .heart{
+                font-size: 2rem;
+                color: #1ed760;
+                margin-top: 1.2rem;
+                &:hover{
+                    color: #14e95f;
+                }
+            }
+            .threedot{
+                color: #fff;
+                margin-top: 1.2rem;
+                font-size: 1.6rem;
+                opacity: 0.6;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+        .nav_row2 {
+            margin: 1rem;
+            display: grid;
+            padding: 1rem 2rem;
+            grid-template-columns: 0.3fr 3fr 1.5fr 1.5fr 0.4fr;
+            position: sticky;
+            transition: 0.3s ease-in-out;
+        }
+
+    }
+}
+.track{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    font-size: 14px;
+    .row{
+        padding: 0.5rem 1rem;
+        display: grid;
+        grid-template-columns: 0.3fr 3fr 1.5fr 1.5fr 0.43fr;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .col_detail{
+            display: flex;
+            gap: 1rem;
+        }
+        .col{
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+}

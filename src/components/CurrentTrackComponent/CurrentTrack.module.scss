@@ -1,0 +1,33 @@
+.track {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .track__image{
+      img{
+        border-radius: 5px;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      .track__name {
+        color: white;
+        font-size: 14px;
+      }
+      .track__artists {
+        color: #ffffff;
+        font-size: 12px;
+      }
+    }
+    .track_icon{
+      display: flex;
+      gap: 1rem;
+      svg{
+        font-size: 18px;
+        color: #8b8787;
+        :hover {
+          color: #fff;
+        }
+      }
+    }
+}

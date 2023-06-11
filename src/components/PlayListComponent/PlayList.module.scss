@@ -1,0 +1,26 @@
+.nav_items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 1rem;
+
+    // &::-webkit-scrollbar{
+    //     width: 0.5rem;
+    //     &-thumb{
+    //         background-color: #1ae48c;
+    //     }
+    // }
+    .item{
+        gap: 1rem;
+        display: flex;
+        cursor: pointer;
+        animation: 0.3s ease-in-out;
+        &:hover{
+            color: white;
+        }
+        .icon{
+            font-size: 24px;
+        }
+    }
+}

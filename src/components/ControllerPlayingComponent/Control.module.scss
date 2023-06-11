@@ -1,0 +1,19 @@
+.control_container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    svg {
+        color: #b3b3b3;
+        transition: 0.2s ease-in-out;
+        font-size: 20px;
+        &:hover {
+          color: white;
+        }
+    }
+    .playPause{
+        svg{
+            font-size: 2.5rem;
+        }
+    }
+}

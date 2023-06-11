@@ -1,0 +1,29 @@
+.Spotify_container{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: calc(100vh - 12.46498599439776vh) 12.46498599439776vh;
+    .Spotify_body{
+        display: grid;
+        grid-template-columns: 18vw 82vw;
+        width: 100%;
+        height: 100%;
+        background-color: #1b1b1b;
+        margin-bottom: 15px;
+        .body{
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            &::-webkit-scrollbar{
+                background-color: #1b1b1b;
+                width: 0.75rem;
+                &-thumb{
+                    background-color: #757575;
+                }
+            }
+            
+        }
+
+    }
+}

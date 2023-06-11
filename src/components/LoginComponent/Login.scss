@@ -1,0 +1,25 @@
+.container-login{
+    background-color: #121212;
+    display:  flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap:5rem;
+}
+.img-logo{
+    height: 20vh;
+}
+.btn-login{
+    background-color: #1ab26b;
+    border-radius: 40px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    color: #121212;
+}
+
+
